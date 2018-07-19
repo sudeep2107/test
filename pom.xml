@@ -35,31 +35,31 @@
             <url>http://localhost:8081/artifactory/myRepo</url>
         </snapshotRepository>
     </distributionManagement>
-    
-    <plugins>
-     <plugin>
-        <artifactId>Maven-compiler-plugin</artifactId>
-        <version>3.1</version>
-        <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
-        </configuration>
-     </plugin>
-     <plugin>
-        <groupId>org.apache.Maven.plugins</groupId>
-        <artifactId>Maven-jar-plugin</artifactId>
-        <version>2.5</version>
-        <configuration>
-          <archive>
-             <index>true</index>
-             <manifest>
-                <addClasspath>true</addClasspath>
-             </manifest>
-             <manifestEntries>
-                <Implementation-Version>0.0.1-SNAPSHOT</Implementation-Version>
-             </manifestEntries>
-          </archive>
-        </configuration>
-     </plugin>
-</plugins>
 </project>
+
+<plugins>
+ <plugin>
+    <artifactId>Maven-compiler-plugin</artifactId>
+    <version>3.1</version>
+    <configuration>
+      <source>1.6</source>
+      <target>1.6</target>
+    </configuration>
+ </plugin>
+ <plugin>
+    <groupId>org.apache.Maven.plugins</groupId>
+    <artifactId>Maven-jar-plugin</artifactId>
+    <version>2.5</version>
+    <configuration>
+      <archive>
+         <index>true</index>
+         <manifest>
+            <addClasspath>true</addClasspath>
+         </manifest>
+         <manifestEntries>
+            <Implementation-Version>0.0.1-SNAPSHOT</Implementation-Version>
+         </manifestEntries>
+      </archive>
+    </configuration>
+ </plugin>
+</plugins>
