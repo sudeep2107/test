@@ -35,7 +35,7 @@
             <url>http://localhost:8081/artifactory/myRepo</url>
         </snapshotRepository>
     </distributionManagement>
-  <buid>  
+  <build>  
     <pluginManagement>
     <plugins>
      <plugin>
@@ -64,6 +64,6 @@
      </plugin>
     </plugins>
 </pluginManagement>
-    </buid>
+    </build>
 </project>
 
