@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=/Users/sudeep/.m2/repository -s /private/var/folders/tb/cyv6s1xj6375tgcxnf4m7v640000gp/T/release-settings3064790832959837527.xml clean verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -D maven.repo.local=/Users/sudeep/.m2/repository -s /private/var/folders/tb/cyv6s1xj6375tgcxnf4m7v640000gp/T/release-settings6443337649348151869.xml clean verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
