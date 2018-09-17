@@ -3,7 +3,7 @@
 
   <groupId>jenkin</groupId>
   <artifactId>test</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
   <packaging>jar</packaging>
 
   <name>test</name>
@@ -17,6 +17,7 @@
       <url>https://github.com/sudeep2107/test</url>
       <connection>scm:git:git@github.com:sudeep2107/test.git</connection>
       <developerConnection>scm:git:git@github.com:sudeep2107/test.git</developerConnection>
+    <tag>v0.0.3</tag>
   </scm>
   <distributionManagement>
         <repository>
